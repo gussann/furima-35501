@@ -16,7 +16,7 @@
 ### Association
 
 - has_many :items
-- has_many :purchase
+- has_many :purchases
 
 ## purchases テーブル (購入記録)
 
@@ -28,7 +28,7 @@
 ### Association
 
 - belongs_to :user
-- belongs_to :items
+- belongs_to :item
 - has_one :residence
 
 ## items テーブル
