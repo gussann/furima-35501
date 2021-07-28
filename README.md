@@ -22,8 +22,8 @@
 
 | Column              | Type       | Options           |
 | ------------------- | ---------- | ----------------- |
-| user_id             | references | foreign_key: true |
-| item_id             | references | foreign_key: true |
+| user                | references | foreign_key: true |
+| item                | references | foreign_key: true |
 
 ### Association
 
@@ -43,7 +43,7 @@
 | delivery_id        | integer    | null: false       |
 | day_to_delivery_id | integer    | null: false       |
 | price              | integer    | null: false       |
-| user_id            | references | foreign_key: true |
+| user               | references | foreign_key: true |
 
 ### Association
 
@@ -60,7 +60,7 @@
 | address             | string     | null: false       |
 | building_name       | string     |                   |
 | phone_number        | string     | null: false       |
-| purchase_id         | references | foreign_key: true |
+| purchase            | references | foreign_key: true |
 
 ### Association
 
